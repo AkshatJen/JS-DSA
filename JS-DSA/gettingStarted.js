@@ -1,3 +1,3 @@
 // this is a getting started file
 
-// first commit and v2
+// this project will have all the DSA related code updated daily and frequently 
