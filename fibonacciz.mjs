@@ -39,8 +39,6 @@ const fibonacciMemoized = (fibIndex,cache=[0,1,1]) => {
   
   
 }
-
-
 const fibIndex = 10;
 
 const fibNumber = fibonacciMemoized(fibIndex - 1);
