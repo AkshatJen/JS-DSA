@@ -1,5 +1,5 @@
 // array of unsorted numbers
-const arr = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1, -2];
+const arr = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1];
 
 //ES6 fat syntax bubble sort function
 const bubbleSort = (arr) => {
