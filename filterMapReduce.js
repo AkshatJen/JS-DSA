@@ -36,7 +36,7 @@ console.log(reducedArray + "\n\n");
 
 
 // using chaining method can also help us achieve similar results
-
+// code above is equivalent to the code below 
 let filteredMapReducedArray = arr.filter(x=> typeof(parseInt(x)) === "number" && x%2===1).map(x=>x*x).reduce((x,y)=>x+y);
 
 console.log(filteredMapReducedArray);
