@@ -4,10 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git-do": "git add . && git commit -m '${GIT_MSG}' && git push",
-    "git-it" : "git add . && git commit -m $npm_config_msg && git push",
-    "say-it" : "echo \" $npm_config_first\"",
-    "demo": "git add . && git commit -m $npm_config_first && git push"
+    "git-it": "git add . && git commit -m $npm_config_first && git push"
     
   },
   "repository": {
