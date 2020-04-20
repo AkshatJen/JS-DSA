@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git-do": "git add . && git commit -m '$MSG' && git push"
+    "git-do": "git add . && git commit -m '${MSG}' && git push"
   },
   "repository": {
     "type": "git",
