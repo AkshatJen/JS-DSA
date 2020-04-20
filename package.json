@@ -1,7 +1,7 @@
 {
   "name": "js-dsa",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a DSA project, aimed to learn the concepts in JS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "git-it": "git add . && git commit -m $MSG && git push"
