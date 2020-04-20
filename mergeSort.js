@@ -13,26 +13,24 @@ const mergeSort = (arr) => {
   return merge(sortedLeft, sortedRight);
 };
 
+const merge = (left, right) => {
+  const resultArray = [];
+  while (left.length && right.length) {
+    if (left[0] <= right[0]) {
+      resultArray.push(left.shift());
+    } else {
+      resultArray.push(right.shift());
+    }
+  }
+  while (left.length) {
+    resultArray.push(left.shift());
+  }
+  while (right.length) {
+    resultArray.push(right.shift());
+  }
+  return resultArray;
+};
 
-const merge = (left,right) => {
-    const resultArray =[];  
-    while(left.length && right.length){
-        if(left[0] <= right[0]){
-            resultArray.push(left.shift());
-        }
-        else{
-            resultArray.push(right.shift());
-        }
-    }
-    while(left.length){
-        resultArray.push(left.shift());
-    }
-    while(right.length){
-        resultArray.push(right.shift());
-    }
-    return resultArray;
-}
-
-const arr = [4,5,6,1,2,3];
+const arr = [4, 5, 6, 1, 2, 3];
 
 console.log(mergeSort(arr));
