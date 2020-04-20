@@ -31,6 +31,6 @@ const merge = (left, right) => {
   return resultArray;
 };
 
-const arr = [4, 5, 6, 1, 2, 3];
+const arr = [4, 9, 5, 8, 6, 1, 7, 2, 0, 3];
 
 console.log(mergeSort(arr));
