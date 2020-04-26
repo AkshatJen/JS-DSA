@@ -22,17 +22,17 @@ const merge = (left, right) => {
       resultArray.push(right.shift());
     }
   }
- /*  while (left.length) {
+  /*  while (left.length) {
     resultArray.push(left.shift());
   }
   while (right.length) {
     resultArray.push(right.shift());
   } */
-  //return resultArray; 
-  
+  //return resultArray;
+
   //return resultArray.concat(left,right);
-  
-  return[...resultArray, ...left, ...right];
+
+  return [...resultArray, ...left, ...right];
 };
 
 const arr = [4, 9, 5, 8, 6, 1, 7, 2, 0, 3];
