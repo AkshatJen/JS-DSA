@@ -9,16 +9,6 @@ const insertionSort = (arr) => {
   }
   return arr;
 };
-const arr1 = [
-  "smile",
-  "love",
-  "sad",
-  "angry",
-  "hearbreak",
-  "coded",
-  "debug",
-  "anxious",
-];
 
 const arr = [3, 7, 6, 1, 4, 8, 2, 5];
 
