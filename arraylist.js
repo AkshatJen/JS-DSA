@@ -1,9 +1,9 @@
+
 class ArrayList {
-  contructor() {
+  constructor(){
     this.length = 0;
     this.data = {};
   }
-
   push(value) {
     this.data[this.length] = value;
     this.length++;
@@ -42,4 +42,6 @@ return this.delete(this.length-1);
 const arr = new ArrayList();
 
 arr.push(5);
+arr.push(1);
 console.log(arr);
+
