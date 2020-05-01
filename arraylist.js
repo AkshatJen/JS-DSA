@@ -1,6 +1,5 @@
-
 class ArrayList {
-  constructor(){
+  constructor() {
     this.length = 0;
     this.data = {};
   }
@@ -44,4 +43,3 @@ const arr = new ArrayList();
 arr.push(5);
 arr.push(1);
 console.log(arr);
-
