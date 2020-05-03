@@ -1,4 +1,5 @@
 // usual way of doing memoization
+//here the cache is in the global scope 
 const cache = {};
 
 const calculate10 = value => value*10;
