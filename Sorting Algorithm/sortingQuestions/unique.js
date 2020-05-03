@@ -22,13 +22,13 @@ const uniqueArray = arr => {
 
 const sortArray = arr => arr.sort((a,b)=> a-b);
 
-
+//strictly functional way of doing things
 const newArray = uniqueArray(sortArray(arr));
 
 console.log(newArray);
 
 
-
+// this way can allow the chaining of the different methods/functions
 const sortedUnique = { 
     cache:{},
     results : [],
