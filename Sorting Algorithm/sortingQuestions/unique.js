@@ -1,6 +1,7 @@
 // sorting an array with linear complexity while making sure the elements are unique 
 
-
+// two ways to solve this answer 
+// first is functional way and second is the object way of solving it
 const arr = [2,4,3,1,4,3,2,2,2,2,2,2,1,7,6,3,3,3,3,5];
 
 
