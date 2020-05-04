@@ -30,7 +30,7 @@ const calculate = (arr,value) => {
   
   const makeChange = (value, i) => {
     recursionCounter++;
-    console.log(`${recursionCounter}: calling ${value} at ${i}`)
+    //console.log(`${recursionCounter}: calling ${value} at ${i}`)
     if (value === 0) return 0;
     let minCoins;
     coins.forEach((coin, i) => {
@@ -44,4 +44,4 @@ const calculate = (arr,value) => {
     return minCoins + 1;
   };
   
-  //console.log(makeChange(25));
+  console.log(makeChange(25));
