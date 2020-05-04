@@ -22,10 +22,33 @@ const factorialIterative = index => {
 
     for(let i = 0 ; i<index ; i++){
         results.push(results[i] * (i+1));
-        console.log("running the loop on " + i);
     }
-    console.log(results);
     return results[index];
 }
 
-console.log(factorialIterative(5));
+//console.log(factorialIterative(5));
+
+//3 improving the performace using the cache{} object  
+const cache = {};
+const factorialIterativeCache = index => {
+    if(cache[index]) {
+        console.log("returned from the cache");
+        return cache[index];
+    }
+
+    const results = [1];
+
+    for(let i = 0 ; i<index ; i++){
+        console.log("=====loop number=====" + i);
+        results.push(results[i] * (i+1));
+        cache[i+1] = results[i] * (i+1);
+    }
+    //console.log(results);
+    return results[index];
+ 
+}
+
+
+console.log(factorialIterativeCache(20));
+//console.log(cache);
+console.log(factorialIterativeCache(20));
