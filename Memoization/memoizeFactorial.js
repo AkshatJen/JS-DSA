@@ -22,6 +22,7 @@ const factorialIterative = index => {
 
     for(let i = 0 ; i<index ; i++){
         results.push(results[i] * (i+1));
+        console.log("running the loop on " + i);
     }
 
     return results[index];
