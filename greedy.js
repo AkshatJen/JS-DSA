@@ -44,4 +44,4 @@ const calculate = (arr,value) => {
     return minCoins + 1;
   };
   
-  console.log(makeChange(25));
+  console.log(makeChange(23));
